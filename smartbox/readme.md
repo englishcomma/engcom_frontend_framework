@@ -36,28 +36,26 @@ See below code.
 ## Smart Buttons
 Smartbar are available for no matter how many buttons, as well as Smartbar can change the color (e.g. primary, secondary, success, danger, info, dark)
 
-<img src="example.png" style="witdh: 100%"></img>
+<img src="example.png" style="witdh:"></img>
 
 ```html
-    <div class="pt-3">
-        <div class="btn-toolbar smart-bar" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group mr-2" role="group" aria-label="First group">
-                <button type="button" active="off" class="btn btn-primary" title="smart-btn1" id="smart-btn1">
-                    <i class="fas fa-plus"></i>
-                </button>
-                <button type="button"  active="off" class="btn btn-primary" title="smart-btn2" id="smart-btn2">
-                    <i class="fas fa-minus"></i>
-                </button>
-                <button type="button"  active="off" class="btn btn-primary" title="smart-btn3" id="smart-btn3">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <button type="button"  active="off" class="btn btn-primary" title="smart-btn4" id="smart-btn4">
-                    <i class="fas fa-arrows-alt"></i>
-                </button>
-                <button type="button"  active="off" class="btn btn-primary" title="smart-btn5" id="smart-btn5">
-                    <i class="fas fa-ad"></i>
-                </button>
-            </div>
+    <div class="btn-toolbar smart-bar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" active="off" class="btn btn-primary" title="smart-btn1" id="smart-btn1">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button type="button" active="off" class="btn btn-primary" title="smart-btn2" id="smart-btn2">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button type="button" active="off" class="btn btn-primary" title="smart-btn3" id="smart-btn3">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button type="button" active="off" class="btn btn-primary" title="smart-btn4" id="smart-btn4">
+                <i class="fas fa-arrows-alt"></i>
+            </button>
+            <button type="button" active="off" class="btn btn-primary" title="smart-btn5" id="smart-btn5">
+                <i class="fas fa-ad"></i>
+            </button>
         </div>
     </div>
 ```
