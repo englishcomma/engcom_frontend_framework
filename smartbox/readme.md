@@ -36,10 +36,7 @@ See below code.
 ## Smart Buttons
 Smartbar are available for no matter how many buttons, as well as Smartbar can change the color (e.g. primary, secondary, success, danger, info, dark)
 
-<iframe
-  src="smartbar.example.html"
-  style="min-width:100%; min-height:300px;"
-></iframe>
+<img src="example.png" style="witdh: 100%"></img>
 
 ```html
     <div class="pt-3">
