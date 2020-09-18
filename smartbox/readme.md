@@ -5,7 +5,7 @@ Provide smart toggle button group for flexible user action and an easy-to-use sm
 * Bootstrap (current-version is 3.5.1)
 * Font awesome icon
 
-It can be used like below
+See below code.
 
 ```html
 <html>
