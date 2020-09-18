@@ -65,6 +65,17 @@ Smartbar are available for no matter how many buttons, as well as Smartbar can c
     </div>
 ```
 
+## Disable Button
+If you want to disable the function of the button, you have to remove attribute of action. (e.g. action="on|off")
+To disable attribute of action can be used, when you want to use modal.
+See below code.
+
+```html
+    ...
+<button type="button" class="btn btn-primary" title="smart-btn1" id="smart-btn1">
+    ...
+```
+
 ## Events
 All buttons are had an easy-to-use event and can be used as jquery or basic javascript. Each button should have a different tag id.
 If the id is the same, it doesn't work.

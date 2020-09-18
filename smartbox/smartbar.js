@@ -40,6 +40,10 @@ const enableOneButton = (my_tag) => {
     const children_btns = my_tag_parent_element.children;
 
     const active_flag = my_tag.getAttribute('active');
+    console.log(active_flag)
+    if(active_flag === null) {
+        return;
+    }
     if(active_flag == 'off') {
         my_tag.setAttribute('active', 'on');
         smartbarBtnClickEvent(my_tag);
