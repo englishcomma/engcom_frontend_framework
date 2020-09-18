@@ -40,7 +40,6 @@ const enableOneButton = (my_tag) => {
     const children_btns = my_tag_parent_element.children;
 
     const active_flag = my_tag.getAttribute('active');
-    console.log(active_flag)
     if(active_flag === null) {
         return;
     }
